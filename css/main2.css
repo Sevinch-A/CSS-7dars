@@ -1,0 +1,293 @@
+body{
+    background-color: rgb(169, 182, 206);
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    height: 200px;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+.navbar-item1{
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.navbar-item1 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-item1:hover {
+    color: aqua;
+    border-bottom: 4px solid blue;
+}
+.navbar-item2{
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.navbar-item2 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-item2:hover {
+    color: aqua;
+    border-bottom: 4px solid purple;
+}
+.navbar-item3{
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.navbar-item3 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-item3:hover {
+    color: aqua;
+    border-bottom: 4px solid yellow;
+}
+.navbar-item4{
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.navbar-item4 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-item4:hover {
+    color: aqua;
+    border-bottom: 4px solid palevioletred;
+}
+.navbar-item5{
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.navbar-item5 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-item5:hover {
+    color: aqua;
+    border-bottom: 4px solid green;
+}
+.navbar-item6{
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.navbar-item6 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-item6:hover {
+    color: aqua;
+    border-bottom: 4px solid red;
+}
+.navbar-item7{
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.navbar-item7 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-item7:hover {
+    color: aqua;
+    border-bottom: 4px solid orange;
+}
+.navbar-item8{
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.navbar-item8 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-item8:hover{
+    color: aqua;
+    border-bottom: 4px solid aqua;
+}
+img{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.navbar-item1:after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../rasmlar/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-item1{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: cornflowerblue;
+    display: none;
+}
+.navbar-item1:hover .drop-menu{
+    display: block;
+}
+.navbar-item2:after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../rasmlar/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-item2{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: cornflowerblue;
+    display: none;
+}
+.navbar-item2:hover .drop-menu{
+    display: block;
+}
+
+
+.navbar-item4:after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../rasmlar/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-item4{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: cornflowerblue;
+    display: none;
+}
+.navbar-item4:hover .drop-menu{
+    display: block;
+}
+.navbar-item5:after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../rasmlar/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-item5{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: cornflowerblue;
+    display: none;
+}
+.navbar-item5:hover .drop-menu{
+    display: block;
+}
+.navbar-item6:after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../rasmlar/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-item6{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: cornflowerblue;
+    display: none;
+}
+.navbar-item6:hover .drop-menu{
+    display: block;
+}
+.navbar-item7:after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../rasmlar/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-item7{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: cornflowerblue;
+    display: none;
+}
+.navbar-item7:hover .drop-menu{
+    display: block;
+}

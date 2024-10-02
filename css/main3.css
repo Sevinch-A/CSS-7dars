@@ -1,0 +1,68 @@
+body{
+    background-color: darkslategray;
+}
+.wrap{
+    width: 1200px;
+    margin: 100px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn1{
+    color: red;
+    background-color: darkslategray;
+    border: 2px solid red;
+    border-radius: 9px;
+    width: 50px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.btn2{
+    color: white;
+    background-color: darkslategray;
+    background-image:url( "../rasmlar/фон.jpg") ;
+    background-size: 100%;
+    border:2px solid green;
+    border-radius: 25px;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-left: 50px
+}
+.btn3{
+    color: white;
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    border-radius: 9px;
+    width: 50px;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.btn4{
+    color: white;
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 9px;
+    width: 50px;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-left: 21px;
+}
+.btn5{
+    color: rgb(176, 21, 176);
+    background-color: darkslategray;
+    border: 2px solid rgb(198, 21, 198);
+    width: 50px;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.btn6{
+    color: rgb(50, 180, 50);
+    background-color: darkslategray;
+    border: 2px solid rgb(38, 188, 38);
+    border-radius: 25px;
+    width: 50px;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-left: 50px;
+}
